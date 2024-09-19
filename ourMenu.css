@@ -1,0 +1,51 @@
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.box{
+    height: 400px;
+    width:30%;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    border: 1px solid black;
+    padding:5px 8px 5px 8px;
+
+}
+
+.box1{
+    background-image: url("beautiful-big-cake-beige-chocolate-icing-decorated-edible-sugar-flowers-paper-decor-background-271826046.webp");
+    background-size: cover;
+}
+.box2{
+    background-image: url("HD-wallpaper-food-dessert-pastry-still-life.jpg");
+    background-size: cover;
+}
+.box3{
+    background-image: url("HD-wallpaper-chocolate-chip-cookies-biscuit-cookies-chocolate-chip.jpg");
+    background-size: cover;
+}
+.box4{
+    background-image:url("images.jpeg");
+    background-size: cover;
+}
+.box p{
+    margin-top: 0px;
+    font-size: 50px;
+}
+.btn{
+    border: none;
+    background: transparent;
+    backdrop-filter: blur(1px);
+    color:white;
+    height:100px;
+    width:200px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    border: 2px solid rgba(255,255,255,0.7)
+}
+.menu{
+    font-size: 90px;;
+}

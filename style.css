@@ -1,0 +1,142 @@
+.nav-bar{
+    height: 60px;
+    width: 100%;
+    background-color: #654321;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-btn{
+    height: 50px;
+    width: 105px;
+    border: none;
+    font-size: 20px;
+    border:none;
+    background: transparent;
+    backdrop-filter: blur(1px);
+}
+.nav-btn:hover{
+    border: 2px solid rgba(255,255,255,0.7)
+}
+.btn:hover{
+    border: 2px solid rgba(255,255,255,0.7)
+}
+.main-src1{
+    background-image: url("HD-wallpaper-food-brownie.jpg");
+    background-size: cover;
+    height: 600px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.main-src1-cnt{
+   background: transparent;
+   backdrop-filter: blur(1px);
+   height: 200px;
+   width: 80%;
+   margin-bottom: 200px;
+   margin-right:220px;
+   color: white;
+}
+.p1{
+    font-size: 50px;
+}
+.p2{
+    font-size: 30px;
+}
+.btn{
+    border:none;
+    background: transparent;
+    backdrop-filter: blur(1px);
+    color:white;
+    height:100px;
+    width:200px;
+    font-size: 30px;
+}
+
+.popular{
+    display: flex;
+    justify-content: space-evenly;    
+}
+.popular img{
+    border: 2px solid black;
+}
+.about{
+    font-size: 40px;
+
+}
+.content{
+    font-size: 20px;
+}
+.footer{
+    height: 100px;
+    width:100%;
+    background-color: #faf0e6;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    position: sticky;
+}
+.social-media i{
+    font-size: 20px;
+    padding: 2px 8px;
+}
+.sign{
+    border: 3px solid #654321;
+    width: 600px;
+    background-color:#faf0e6 ;
+    margin-left: 300px;
+}
+.img-container i{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button {
+    background-color: #654321;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height:50px;
+}
+button:hover {
+    opacity: 0.8;
+}
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+.container {
+    padding: 16px;
+}
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+@media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+}
